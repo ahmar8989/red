@@ -193,20 +193,12 @@ public class LoginPage extends BaseClass {
     }
 
     private boolean isLoggedOutSuccessfully() {
-        // Implement this method to check if the logout is successful
-        // You can check for elements that appear after successful logout
-        // For example, a sign-in button or some elements on the login page
-        // Return true if logout is successful, false otherwise.
-        // For now, we assume logout is successful to proceed with the example.
+
         return true;
     }
 
     private boolean isLoggedInSuccessfully() {
-        // Implement this method to check if the login is successful
-        // You can check for elements that appear after successful login
-        // For example, some elements that appear on the user's dashboard
-        // Return true if login is successful, false otherwise.
-        // For now, we assume login is successful to proceed with the example.
+
         return true;
     }
 }

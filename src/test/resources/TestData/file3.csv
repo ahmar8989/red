@@ -1,0 +1,4 @@
+SKU,Product Name,UPC/EAN/ISBN,Price,Compare at Price,Cost Price,Quantity,Weight,Description,Brand,Vendor,Category,Channels,URL Slug,SEO Title,SEO Description,Tags
+1001,Chair,1230,50,70,30,10,320,A comfortable chair for your home or office,Home,Furniture Inc,Furniture,Default,chair-1001,Chair 1001,A comfortable chair for your home or office,"home, furniture, chair, comfortable"
+1002,Table,2350,100,120,80,5,480,A stylish table for your living room,Living Room,Furniture Inc,Furniture,Default,table-1002,Table 1002,A stylish table for your living room,"living room, furniture, table, stylish"
+1003,Lamp,3460,20,25,15,15,80,A modern lamp to light up your space,Lighting,Lighting Inc,Lighting,Default,lamp-1003,Lamp 1003,A modern lamp to light up your space,"lighting, lamp, modern"

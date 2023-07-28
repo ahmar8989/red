@@ -1,0 +1,15 @@
+image: maven:3.6.3-jdk-8
+
+pipelines:
+  default:
+    - step:
+        name: Build and Test
+        script:
+          - apt-get update
+          - apt-get install -y wget xvfb libxi6 libgconf-2-4 libnss3 libxss1 fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 libatk1.0-0 libatspi2.0-0 libcairo2 libcups2 libgbm1 libgtk-3-0 libpango-1.0-0 libu2f-udev libvulkan1 libxcomposite1 libxkbcommon0 libxrandr2 xdg-utils
+          - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          - dpkg -i google-chrome-stable_current_amd64.deb
+          - apt --fix-broken install -y
+          - Xvfb :99 -ac -screen 0 1280x1024x24 > /dev/null 2>&1 &
+          - export DISPLAY=:99
+          - mvn clean test
